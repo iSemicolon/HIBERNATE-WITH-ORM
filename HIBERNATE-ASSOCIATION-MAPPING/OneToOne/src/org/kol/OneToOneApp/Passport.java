@@ -13,6 +13,7 @@ public class Passport {
 	@GeneratedValue
 	private int passId;
 	private String PassName;
+	private String passportNumber;
 	
 	public int getPassId() {
 		return passId;
@@ -26,6 +27,14 @@ public class Passport {
 	public void setPassName(String passName) {
 		PassName = passName;
 	}
+	public String getPassportNumber() {
+		return passportNumber;
+	}
+	public void setPassportNumber(String passportNumber) {
+		this.passportNumber = passportNumber;
+	}
+	
+	
 	
 	
 
