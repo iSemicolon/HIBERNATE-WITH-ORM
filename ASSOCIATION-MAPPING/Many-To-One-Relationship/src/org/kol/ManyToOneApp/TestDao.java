@@ -1,5 +1,6 @@
 package org.kol.ManyToOneApp;
 
+/* Many To One Mapping*/
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
